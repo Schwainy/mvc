@@ -65,16 +65,19 @@
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="334dp"
         android:layout_height="37dp"
+        android:layout_marginTop="288dp"
         android:background="@drawable/font_text"
         android:ems="10"
         android:hint="example@mail.ru"
         android:inputType="textEmailAddress"
         android:paddingHorizontal="8dp"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="288dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/login_b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -82,9 +85,9 @@
         android:layout_marginEnd="20dp"
         android:width="335dp"
         android:height="56dp"
-        android:background="@drawable/button_fone"
         android:text="Далее"
         android:textColor="@color/white"
+        android:background="@drawable/butto_unact"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -96,27 +99,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="19dp"
-        android:layout_marginTop="720dp"
+        android:layout_marginTop="700dp"
         android:layout_marginEnd="21dp"
         android:text="Или войдите с помощью"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="780dp"
+        android:layout_marginTop="752dp"
         android:layout_marginEnd="20dp"
         android:width="335dp"
         android:height="35dp"
         android:background="@drawable/button_fone1"
         android:text="Войти с Яндекс"
+        android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:textAllCaps="false"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

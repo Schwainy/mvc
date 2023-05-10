@@ -17,7 +17,7 @@ public class MainActivity3 extends AppCompatActivity {
     }
     public void go(View v)
     {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, login.class);
         startActivity(intent);
     }
 }
