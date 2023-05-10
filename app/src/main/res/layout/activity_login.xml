@@ -62,7 +62,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/loginEmail"
         android:layout_width="334dp"
         android:layout_height="37dp"
         android:layout_marginTop="288dp"
@@ -86,13 +86,13 @@
         android:width="335dp"
         android:height="56dp"
         android:text="Далее"
-        android:textColor="@color/white"
         android:background="@drawable/butto_unact"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:textAllCaps="false"
-        android:onClick=""/>
+        android:onClick="go3"/>
 
     <TextView
         android:id="@+id/textView8"
