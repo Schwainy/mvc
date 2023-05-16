@@ -455,7 +455,8 @@
                 android:layout_width="335dp"
                 android:layout_height="136dp"
                 android:background="@drawable/back_cus"
-                android:elevation="10dp">
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
 
                 <TextView
                     android:id="@+id/textView27"
@@ -504,6 +505,426 @@
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/dob"
+                    android:layout_width="94dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_fone"
+                    android:fontFamily="sans-serif"
+                    android:text="Добавить"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textFontWeight="100"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.933"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="335dp"
+                android:layout_height="136dp"
+                android:background="@drawable/back_cus"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="84dp"
+                    android:fontFamily="sans-serif"
+                    android:text="1800 Р"
+                    android:textColor="@color/black"
+                    android:textFontWeight="100"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.056"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="68dp"
+                    android:fontFamily="sans-serif"
+                    android:text="1 день"
+                    android:textFontWeight="100"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.053"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="303dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Клинический анализ крови с лейкоцитарной формулировкой"
+                    android:textColor="@color/black"
+                    android:textFontWeight="500"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/dob1"
+                    android:layout_width="94dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_fone"
+                    android:fontFamily="sans-serif"
+                    android:text="Добавить"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textFontWeight="100"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.933"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="335dp"
+                android:layout_height="136dp"
+                android:background="@drawable/back_cus"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="84dp"
+                    android:fontFamily="sans-serif"
+                    android:text="1800 Р"
+                    android:textColor="@color/black"
+                    android:textFontWeight="100"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.056"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="68dp"
+                    android:fontFamily="sans-serif"
+                    android:text="1 день"
+                    android:textFontWeight="100"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.053"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="303dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Биохимический анализ крови, базовый"
+                    android:textColor="@color/black"
+                    android:textFontWeight="500"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/dob2"
+                    android:layout_width="94dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_fone"
+                    android:fontFamily="sans-serif"
+                    android:text="Добавить"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textFontWeight="100"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.933"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="335dp"
+                android:layout_height="136dp"
+                android:background="@drawable/back_cus"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="84dp"
+                    android:fontFamily="sans-serif"
+                    android:text="1800 Р"
+                    android:textColor="@color/black"
+                    android:textFontWeight="100"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.056"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="68dp"
+                    android:fontFamily="sans-serif"
+                    android:text="2 дня"
+                    android:textFontWeight="100"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.053"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="303dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif"
+                    android:text="ПЦР-тест наопределение РНК коронавируса стандартный"
+                    android:textColor="@color/black"
+                    android:textFontWeight="500"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/dob3"
+                    android:layout_width="94dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_fone"
+                    android:fontFamily="sans-serif"
+                    android:text="Добавить"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textFontWeight="100"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.933"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="335dp"
+                android:layout_height="136dp"
+                android:background="@drawable/back_cus"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="84dp"
+                    android:fontFamily="sans-serif"
+                    android:text="1800 Р"
+                    android:textColor="@color/black"
+                    android:textFontWeight="100"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.056"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="68dp"
+                    android:fontFamily="sans-serif"
+                    android:text="2 дня"
+                    android:textFontWeight="100"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.053"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="303dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif"
+                    android:text="ПЦР-тест наопределение РНК коронавируса стандартный"
+                    android:textColor="@color/black"
+                    android:textFontWeight="500"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/dob4"
+                    android:layout_width="94dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_fone"
+                    android:fontFamily="sans-serif"
+                    android:text="Добавить"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textFontWeight="100"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.933"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="335dp"
+                android:layout_height="136dp"
+                android:background="@drawable/back_cus"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="84dp"
+                    android:fontFamily="sans-serif"
+                    android:text="1800 Р"
+                    android:textColor="@color/black"
+                    android:textFontWeight="100"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.056"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="68dp"
+                    android:fontFamily="sans-serif"
+                    android:text="2 дня"
+                    android:textFontWeight="100"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.053"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="303dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif"
+                    android:text="ПЦР-тест наопределение РНК коронавируса стандартный"
+                    android:textColor="@color/black"
+                    android:textFontWeight="500"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/dob5"
+                    android:layout_width="94dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_fone"
+                    android:fontFamily="sans-serif"
+                    android:text="Добавить"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textFontWeight="100"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.933"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="335dp"
+                android:layout_height="136dp"
+                android:background="@drawable/back_cus"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="84dp"
+                    android:fontFamily="sans-serif"
+                    android:text="1800 Р"
+                    android:textColor="@color/black"
+                    android:textFontWeight="100"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.056"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="68dp"
+                    android:fontFamily="sans-serif"
+                    android:text="2 дня"
+                    android:textFontWeight="100"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.053"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="303dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif"
+                    android:text="ПЦР-тест наопределение РНК коронавируса стандартный"
+                    android:textColor="@color/black"
+                    android:textFontWeight="500"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/dob6"
                     android:layout_width="94dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="80dp"
