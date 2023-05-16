@@ -145,7 +145,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="632dp"
         android:layout_marginEnd="20dp"
-        android:background="@drawable/butto_unact"
+        android:background="@drawable/butto_unact2"
         android:fontFamily="sans-serif"
         android:text="Создать"
         android:textAllCaps="false"
