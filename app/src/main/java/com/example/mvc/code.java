@@ -123,7 +123,7 @@ public class code extends AppCompatActivity {
         CountDownTimer cdt = new CountDownTimer(60000, 1000) {
             @Override
             public void onTick(long millisUntilFinished) {
-                time.setText("Отправить код повторно можно ьулет через " + millisUntilFinished / 1000 + " секунд");
+                time.setText("Отправить код повторно можно будет через " + millisUntilFinished / 1000 + " секунд");
             }
 
             @Override

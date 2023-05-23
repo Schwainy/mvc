@@ -53,6 +53,7 @@
             android:layout_marginRight="10dp"
             android:background="@drawable/kletka_coda"
             android:ems="10"
+            android:hint="1"
             android:gravity="center"
             android:inputType="number"
             android:textSize="20dp" />
@@ -65,6 +66,7 @@
             android:layout_marginRight="10dp"
             android:background="@drawable/kletka_coda"
             android:ems="10"
+            android:hint="2"
             android:gravity="center"
             android:inputType="number"
             android:textSize="20dp" />
@@ -77,6 +79,7 @@
             android:layout_marginRight="10dp"
             android:background="@drawable/kletka_coda"
             android:ems="10"
+            android:hint="3"
             android:gravity="center"
             android:inputType="number"
             android:textSize="20dp" />
@@ -89,6 +92,7 @@
             android:layout_marginRight="10dp"
             android:background="@drawable/kletka_coda"
             android:ems="10"
+            android:hint="4"
             android:gravity="center"
             android:inputType="number"
             android:textSize="20dp" />
