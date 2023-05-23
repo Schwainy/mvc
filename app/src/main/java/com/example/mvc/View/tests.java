@@ -23,7 +23,6 @@ public class tests extends Fragment {
     private AppCompatButton close;
 
     public tests() {
-        // Required empty public constructor
     }
 
 
