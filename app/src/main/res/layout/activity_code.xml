@@ -40,7 +40,7 @@
         android:layout_height="64dp"
         android:gravity="center"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/Timer"
+        app:layout_constraintBottom_toTopOf="@+id/timer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9">
@@ -53,7 +53,6 @@
             android:layout_marginRight="10dp"
             android:background="@drawable/kletka_coda"
             android:ems="10"
-            android:hint="1"
             android:gravity="center"
             android:inputType="number"
             android:textSize="20dp" />
@@ -66,7 +65,6 @@
             android:layout_marginRight="10dp"
             android:background="@drawable/kletka_coda"
             android:ems="10"
-            android:hint="2"
             android:gravity="center"
             android:inputType="number"
             android:textSize="20dp" />
@@ -79,7 +77,6 @@
             android:layout_marginRight="10dp"
             android:background="@drawable/kletka_coda"
             android:ems="10"
-            android:hint="3"
             android:gravity="center"
             android:inputType="number"
             android:textSize="20dp" />
@@ -92,7 +89,6 @@
             android:layout_marginRight="10dp"
             android:background="@drawable/kletka_coda"
             android:ems="10"
-            android:hint="4"
             android:gravity="center"
             android:inputType="number"
             android:textSize="20dp" />

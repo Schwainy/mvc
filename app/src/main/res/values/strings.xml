@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">mvc</string>
+
+    <style name="cursiv">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textFontWeight">100</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
